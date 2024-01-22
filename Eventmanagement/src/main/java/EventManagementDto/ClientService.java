@@ -26,6 +26,7 @@ public class ClientService {
 	}
 	public void setClientserviceid(int clientserviceid) {
 		Clientserviceid = clientserviceid;
+		System.out.println(clientserviceid);
 	}
 
 	public String getClientServicename() {
